@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+
+#side {
+    width: 40%;
+    height: 100vh;
+    background-image: url(./image/sample.jpg);
+    background-size: 40vw 100vh;
+}
