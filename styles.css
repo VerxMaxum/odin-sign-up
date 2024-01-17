@@ -88,32 +88,42 @@ form {
 input {
     display: block;
     appearance: none;
-    border: 2px rgb(204, 204, 204) solid;
-    border-radius: 5px;
+    border: none;
+    border-bottom: 2px rgb(204, 204, 204) solid;
     outline: none;
     width: 100%;
     height: 1.5em;
 }
 
 input:focus {
-    border: 2px rgb(42, 3, 133) solid;
-    border-radius: 5px;
+    border-bottom: 2px rgb(42, 3, 133) solid;
 }
 
 button[type="submit"] {
     font-size: 1.4rem;
     font-weight: 800;
     padding: 0.3rem;
-    width: 12rem;
+    width: 100%;
     color: white;
     background-color: rgb(42, 3, 133);
     border: 2px rgb(42, 3, 133) solid;
     cursor: pointer;
     border-radius: 5px;
+    box-shadow: 0 5px 5px gray;
 }
 
 button[type="submit"]:hover {
     background-color: white;
     color: rgb(42, 3, 133);
     border: 2px rgb(42, 3, 133) solid;
+}
+
+#account-exist {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+}
+
+a {
+    color: rgb(42, 3, 133);
+    font-weight: 800;
 }
