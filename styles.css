@@ -26,6 +26,13 @@ body {
     color: rgb(243, 243, 243);
 }
 
+#side-attribute {
+    position: relative;
+    top: 86%;
+    left: 2%;
+    color: white;
+}
+
 #main {
     display: flex;
     flex-direction: column;
