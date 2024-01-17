@@ -12,3 +12,11 @@ body {
     background-image: url(./image/sample.jpg);
     background-size: 40vw 100vh;
 }
+
+.input-container {
+    display: inline-block;
+}
+input {
+    display: block;
+    appearance: none;
+}
