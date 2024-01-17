@@ -91,6 +91,7 @@ form {
 }
 
 .input-container {
+    margin-top: 0.7rem;
     display: inline-block;
 }
 
@@ -139,4 +140,11 @@ input:invalid {
 a {
     color: rgb(42, 3, 133);
     font-weight: 800;
+}
+
+@media (max-width: 100px) {
+    #main {
+        display: none;
+    }
+
 }
