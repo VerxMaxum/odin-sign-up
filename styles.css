@@ -26,6 +26,10 @@ body {
     color: rgb(243, 243, 243);
 }
 
+#website-name::before, #website-name::after {
+    content: url(./image/symbol.png);
+}
+
 #side-attribute {
     position: relative;
     top: 86%;
